@@ -1,6 +1,6 @@
 # Tarefa-Seguranca-da-Informacao
 
-Alunos: Tiago Soares Costa de Oliveira - 201210797
+Alunos: Tiago Soares Costa de Oliveira - Matrícula: 201210797 / Marcos Vinícius Moreira da Silva - Matrícula: 202211819
 
 
 Foi utilizado o compilador GCC (GNU Complete Compiler) para a compilação dos dois arquivos .c. 
