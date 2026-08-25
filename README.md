@@ -13,3 +13,9 @@ digitar no teclado, quando apertava Enter todos os caracteres digitados no tecla
 para o processo "invasor", onde o mesmo recebia os caracteres, também via socket, e mostrava os mesmos pela 
 saída padrão, a tela. 
 
+O conceito explorado foi o uso de uma porta específica para se conectar ao host, utilizando funções a nível de 
+sistema operacional, tais como o uso de sockets, conexão persistente, ligação do socket com as configurações de 
+rede, além do descritor de arquivos gerenciado pelo próprio kernel Linux. Para evitar invasões e/ou mitigar o 
+backdoor, certas devem ser seguidas, sendo elas o uso de firewall para bloquear portas que fazer parte da black list, 
+não executar arquivos binários não-confiáveis, fazer o monitoramento de portas abertas, identificando quais portas 
+pertencem à quais processos, analisar os processos em execução.
